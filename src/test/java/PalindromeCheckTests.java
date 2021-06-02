@@ -23,4 +23,14 @@ public class PalindromeCheckTests {
         //assert
         Assert.assertFalse(palindromeCheck);
     }
+
+    @Test
+    public void palindromeCheckTest3(){
+        //arrange
+        String someString = "abbbbaa";
+        //action
+        boolean palindromeCheck = practice.palindromeCheck(someString);
+        //assert
+        Assert.assertFalse(palindromeCheck);
+    }
 }
