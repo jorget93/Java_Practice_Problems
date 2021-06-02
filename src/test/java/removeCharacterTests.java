@@ -27,4 +27,16 @@ public class removeCharacterTests {
         //assert
         Assert.assertEquals(expected, actual);
     }
+
+    @Test
+    public void removeCharacterTest3(){
+        //arrange
+        String someString = "doggos";
+        char characterToRemove = 's';
+        //action
+        String expected = "doggo";
+        String actual = practice.removeCharacter(someString, characterToRemove);
+        //assert
+        Assert.assertEquals(expected, actual);
+    }
 }
