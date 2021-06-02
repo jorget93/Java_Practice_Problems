@@ -13,6 +13,15 @@ public class Practice_Problems {
         return true;
     }
 
-
+    //Write a method which will remove any given character from a String
+    public String removeCharacter(String someString, char someChar){
+        String newString = "";
+        for(int i = 0; i < someString.length(); i++){
+            if(someString.charAt(i) != someChar){
+                newString += someString.charAt(i);
+            }
+        }
+        return newString;
+    }
 
 }
