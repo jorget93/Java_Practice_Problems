@@ -44,4 +44,17 @@ public class bubbleSortTests {
         //assert
         Assert.assertArrayEquals(expected, actual);
     }
+
+    @Test
+    public void bubbleSortTest4(){
+        //arrange
+        int[] unsortedArray = { 4, 3, 2, 7, 1, 12, 22, 11, 10 };
+
+        //action
+        int[] expected = { 1, 2, 3, 4, 7, 10, 11, 12, 22 };
+        int[] actual = practice.bubbleSort(unsortedArray);
+
+        //assert
+        Assert.assertArrayEquals(expected, actual);
+    }
 }
