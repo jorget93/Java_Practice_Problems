@@ -24,4 +24,19 @@ public class Practice_Problems {
         return newString;
     }
 
+    //Write a program to sort any given array from smallest to largest
+    public int[] bubbleSort( int[] unsortedArray ){
+        int holder;
+        for(int i = 0; i < unsortedArray.length; i++){
+            for(int j = 0; j < unsortedArray.length - 1; j++){
+                if(unsortedArray[j] > unsortedArray[j + 1]){
+                    holder = unsortedArray[j];
+                    unsortedArray[j] = unsortedArray[j + 1];
+                    unsortedArray[j + 1] = holder;
+                }
+            }
+        }
+        return unsortedArray;
+    }
+
 }
