@@ -55,4 +55,17 @@ public class countOccurrenceTests {
         //assert
         Assert.assertEquals(expected, actual);
     }
+
+    @Test
+    public void countOccurrencesTest5(){
+        //arrange
+        String someString = "someString A";
+        char charToCount = 'a';
+
+        //action
+        int expected = 0;
+        int actual = practice.countOccurrence(someString, charToCount);
+        //assert
+        Assert.assertEquals(expected, actual);
+    }
 }
