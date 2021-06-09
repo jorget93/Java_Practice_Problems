@@ -39,4 +39,15 @@ public class Practice_Problems {
         return unsortedArray;
     }
 
+    //Write a function to count the occurrence of a given character in a String?
+    public int countOccurrence( String someString, char charToCount){
+        int counter = 0;
+        for (int i = 0; i < someString.length(); i++){
+            if( someString.charAt(i) == charToCount){
+                counter++;
+            }
+        }
+        return counter;
+    }
+
 }
