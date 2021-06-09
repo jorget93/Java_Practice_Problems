@@ -29,4 +29,17 @@ public class countOccurrenceTests {
         //assert
         Assert.assertEquals(expected, actual);
     }
+
+    @Test
+    public void countOccurrencesTest3(){
+        //arrange
+        String someString = "aaacccbbb123 aabb/ cc. aaa";
+        char charToCount = 'a';
+
+        //action
+        int expected = 8;
+        int actual = practice.countOccurrence(someString, charToCount);
+        //assert
+        Assert.assertEquals(expected, actual);
+    }
 }
