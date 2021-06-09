@@ -16,4 +16,17 @@ public class countOccurrenceTests {
         //assert
         Assert.assertEquals(expected, actual);
     }
+
+    @Test
+    public void countOccurrencesTest2(){
+        //arrange
+        String someString = "aaacccaaabbbaaa";
+        char charToCount = 'a';
+
+        //action
+        int expected = 9;
+        int actual = practice.countOccurrence(someString, charToCount);
+        //assert
+        Assert.assertEquals(expected, actual);
+    }
 }
