@@ -50,7 +50,7 @@ public class Practice_Problems {
         return counter;
     }
 
-    //Write a program to implement a binary search algorithm in Java
+    //Write a program to implement a binary search algorithm in.
     public int binarySearch(int[] sortedArray, int low, int high, int key){
         int index = 0;
         while(low <= high){
@@ -68,4 +68,5 @@ public class Practice_Problems {
         }
         return index;
     }
+
 }
