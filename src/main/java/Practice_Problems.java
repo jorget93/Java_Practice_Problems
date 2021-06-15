@@ -84,6 +84,13 @@ public class Practice_Problems {
 
     //Given an array nums. We define a running sum of an array as runningSum[i] = sum(nums[0]…nums[i]).
     //Return the running sum of nums.
+    public int arrayRunningSum (int[] someArray) {
+        int arraySum = 0;
+        for(int i = 0; i < someArray.length; i++){
+            arraySum += someArray[i];
+        }
+        return arraySum;
+    }
 
 
     //You are given a string allowed consisting of distinct characters and an array of strings words. A string is consistent if all characters in the string appear in the string allowed.
