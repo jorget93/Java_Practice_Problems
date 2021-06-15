@@ -29,4 +29,18 @@ public class reverseCharArrayTests {
         //assert
         Assert.assertArrayEquals(expected, actual);
     }
+
+    @Test
+    public void reverseCharArrayTest3() {
+        //arrange
+        char[] someArray = { '!', '#', '@', '@', '!'};
+
+        //action
+        char[] expected = {'!', '@', '@', '#','!' };
+        char[] actual = practice.reverseCharArray(someArray);
+
+        //assert
+        Assert.assertArrayEquals(expected, actual);
+    }
+
 }
