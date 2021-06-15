@@ -69,4 +69,17 @@ public class Practice_Problems {
         return index;
     }
 
+    //Take a char array, reverse the order, cannot declare another array
+
+
+    //Given an array nums. We define a running sum of an array as runningSum[i] = sum(nums[0]…nums[i]).
+    //Return the running sum of nums.
+
+
+    //You are given a string allowed consisting of distinct characters and an array of strings words. A string is consistent if all characters in the string appear in the string allowed.
+    //Return the number of consistent strings in the array words.
+
+
+    //Find common elements between 2 arrays of strings
+    //Return common items of two arrays
 }
