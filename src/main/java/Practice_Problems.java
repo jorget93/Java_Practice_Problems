@@ -70,6 +70,16 @@ public class Practice_Problems {
     }
 
     //Take a char array, reverse the order, cannot declare another array
+    public char[] reverseCharArray(char[] someArray) {
+        char charHolder;
+        int halfIndex = someArray.length / 2;
+        for(int i = 0; i <= halfIndex; i++){
+            charHolder = someArray[i];
+            someArray[i] = someArray[someArray.length - (1 + i)];
+            someArray[someArray.length - (1 + i)] = charHolder;
+        }
+        return someArray;
+    }
 
 
     //Given an array nums. We define a running sum of an array as runningSum[i] = sum(nums[0]…nums[i]).
