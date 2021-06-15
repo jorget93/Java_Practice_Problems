@@ -27,4 +27,16 @@ public class arrayRunningSumTests {
         //assert
         Assert.assertEquals(expected, actual);
     }
+
+    @Test
+    public void arrayRunningSumTest3() {
+        //arrange
+        int[] someArray = { 1111, 1000, 100000, 10000, 100000 };
+
+        //action
+        int expected = 212111;
+        int actual = practice.arrayRunningSum(someArray);
+        //assert
+        Assert.assertEquals(expected, actual);
+    }
 }
