@@ -72,7 +72,7 @@ public class Practice_Problems {
     //Take a char array, reverse the order, cannot declare another array
     public char[] reverseCharArray(char[] someArray) {
         char charHolder;
-        int halfIndex = someArray.length / 2;
+        int halfIndex = (someArray.length - 1)/ 2;
         for(int i = 0; i <= halfIndex; i++){
             charHolder = someArray[i];
             someArray[i] = someArray[someArray.length - (1 + i)];
