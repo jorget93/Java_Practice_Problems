@@ -15,4 +15,16 @@ public class arrayRunningSumTests {
         //assert
         Assert.assertEquals(expected, actual);
     }
+
+    @Test
+    public void arrayRunningSumTest2() {
+        //arrange
+        int[] someArray = { 1, 1, 1, 1, 1 };
+
+        //action
+        int expected = 5;
+        int actual = practice.arrayRunningSum(someArray);
+        //assert
+        Assert.assertEquals(expected, actual);
+    }
 }
