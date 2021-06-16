@@ -17,4 +17,17 @@ public class findSecondHighestIntegerTests {
         Assert.assertEquals( expected, actual);
     }
 
+    @Test
+    public void findSecondHighestIntegerTest2() {
+        //arrange
+        Integer[] someArray = { 1, 1, 1, 1, 1, 1};
+
+        //action
+        Integer expected = 1;
+        Integer actual = practice.findSecondHighestInteger(someArray);
+
+        //assert
+        Assert.assertEquals( expected, actual);
+    }
+
 }
