@@ -99,4 +99,8 @@ public class Practice_Problems {
 
     //Find common elements between 2 arrays of strings
     //Return common items of two arrays
+
+    //Find the second highest number in an integer array?
+
+
 }
