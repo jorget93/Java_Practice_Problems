@@ -101,6 +101,18 @@ public class Practice_Problems {
     //Return common items of two arrays
 
     //Find the second highest number in an integer array?
-
+    public Integer findSecondHighestInteger( Integer[] someArray ) {
+        Integer holder;
+        for (int i = 0; i < someArray.length; i++) {
+            for(int j = 0; j < someArray.length - 1; j++){
+                if(someArray[j] > someArray[j + 1]){
+                    holder = someArray[j];
+                    someArray[j] = someArray[j + 1];
+                    someArray[j + 1] = holder;
+                }
+            }
+        }
+        return someArray[someArray.length - 2];
+    }
 
 }
