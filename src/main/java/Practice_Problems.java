@@ -111,6 +111,9 @@ public class Practice_Problems {
     //Return the number of consistent strings in the array words.
 
 
+
+
+
     //Find common elements between 2 arrays of strings
     //Return common items of two arrays
 
