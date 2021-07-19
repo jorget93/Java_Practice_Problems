@@ -92,14 +92,6 @@ public class Practice_Problems {
         return arraySum;
     }
 
-
-    //You are given a string allowed consisting of distinct characters and an array of strings words. A string is consistent if all characters in the string appear in the string allowed.
-    //Return the number of consistent strings in the array words.
-
-
-    //Find common elements between 2 arrays of strings
-    //Return common items of two arrays
-
     //Find the second highest number in an integer array?
     public Integer findSecondHighestInteger( Integer[] someArray ) {
         Integer holder;
@@ -114,5 +106,12 @@ public class Practice_Problems {
         }
         return someArray[someArray.length - 2];
     }
+
+    //You are given a string allowed consisting of distinct characters and an array of strings words. A string is consistent if all characters in the string appear in the string allowed.
+    //Return the number of consistent strings in the array words.
+
+
+    //Find common elements between 2 arrays of strings
+    //Return common items of two arrays
 
 }
